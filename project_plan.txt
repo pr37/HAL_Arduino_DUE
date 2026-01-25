@@ -1,0 +1,52 @@
+project/
+├── CMakeLists.txt        
+├── toolchain/
+│
+├── app/
+│   ├── main.cpp
+│   ├── config.hpp
+│   └── tasks/
+│
+├── bsp/
+│   ├── board.hpp
+│   ├── board.cpp
+│   ├── pins.hpp
+│   └── pins.cpp
+│
+├── hal/
+│   ├── include/
+│   │  ├── gpio.hpp
+│   │  ├── uart.hpp
+│   │  ├── spi.hpp
+│   │  ├── i2c.hpp
+│   │  ├── timer.hpp
+│   │  ├── adc.hpp
+│   │  ├── clock.hpp
+│   │  └── common.hpp
+│   │
+│   └── src/
+│       └── 
+│           ├── gpio.cpp
+│           ├── uart.cpp
+│           ├── spi.cpp
+│           ├── i2c.cpp
+│           ├── timer.cpp
+│           ├── adc.cpp
+│           ├── clock.cpp
+│           └── startup.cpp
+│
+├── drivers/
+│   ├── sensors/
+│   │   └── hcsr04.cpp
+│   └── displays/
+│       └── ssd1306.cpp
+│
+├── third_party/
+│   ├── cmsis/
+│   └── sam3x_headers/
+│
+└── linker/
+    └── sam3x8e.ld
+
+
+MCU: Arduino Due SAM3X8E
